@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Desktop"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-02 03:00:22 "/>
+        <attribute name="created" value="RGVza3RvcDtERVNLVE9QLVBDOzIwMjItMDktMDI7IjAyOjMxOjExICI7MjY0MA=="/>
+        <attribute name="edited" value="RGVza3RvcDtERVNLVE9QLVBDOzIwMjItMDktMDI7IjAzOjAwOjIyICI7MTsyNzQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite, resultado" type="Integer" array="False" size=""/>
+            <assign variable="resultado" expression="0"/>
+            <assign variable="numero" expression="1"/>
+            <assign variable="limite" expression="90"/>
+            <while expression="resultado+9&lt;=limite">
+                <assign variable="resultado" expression="numero*9"/>
+                <output expression="resultado" newline="True"/>
+                <assign variable="numero" expression="numero+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
