@@ -1,1 +1,1 @@
-# Este é meu repositório do cur
+# Este é meu repositório do curso de lógica da Dio
